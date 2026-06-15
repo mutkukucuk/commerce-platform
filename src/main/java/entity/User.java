@@ -2,12 +2,9 @@ package entity;
 
 
 import jakarta.persistence.*;
-import jdk.jfr.DataAmount;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.boot.autoconfigure.amqp.RabbitConnectionDetails;
-import org.springframework.web.servlet.handler.UserRoleAuthorizationInterceptor;
 
 import java.time.LocalDateTime;
 
